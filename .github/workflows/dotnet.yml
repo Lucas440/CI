@@ -37,5 +37,6 @@ jobs:
         excludes: '[program]*,[test]test.*'
     - name: coveralls 
       uses: coverallsapp/github-action@v1.1.1 
-        with: github-token: ${{secrets.GITHUB_TOKEN }} 
+        with: 
+        github-token: ${{secrets.GITHUB_TOKEN }} 
         path-to-lcov: SafariPark_Final/SafariParkTests/lcov.info
