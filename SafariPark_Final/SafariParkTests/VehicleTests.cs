@@ -49,5 +49,10 @@ namespace SafariParkTests
             };
             Assert.AreEqual(expectedPassengers, v.NumPassengers);
         }
+
+        public void Failure()
+        {
+            Assert.Fail();
+        }
     }
 }
