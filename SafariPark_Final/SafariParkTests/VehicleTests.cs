@@ -50,6 +50,7 @@ namespace SafariParkTests
             Assert.AreEqual(expectedPassengers, v.NumPassengers);
         }
 
+        [Test]
         public void Failure()
         {
             Assert.Fail();
